@@ -1,0 +1,27 @@
+{
+  "name": "evolentessence",
+  "displayName": "Evolent essence",
+  "description": "Futuresism",
+  "version": "0.0.1",
+  "publisher": "Evolentessence",
+  "engines": {
+    "vscode": "^1.78.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elrelic",
+        "uiTheme": "hc-black",
+        "path": "./themes/Elrelic-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "generator-code": "^1.7.6",
+    "yo-coder": "^1.0.2"
+  }
+}
+
